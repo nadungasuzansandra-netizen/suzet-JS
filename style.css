@@ -1,4 +1,11 @@
 *{
-    color: pink;
-    background-color:gold ;
+    color: blue;
+    background-color:rgb(130, 175, 130);
+}
+.he{
+    color: brown;
+}
+.imgages{
+    border-image: round;
+
 }
