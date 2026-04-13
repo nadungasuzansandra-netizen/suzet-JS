@@ -124,7 +124,7 @@
 // // empty array
 // //An array is a data structure that can hold multiple values at once. its defined using
 
-// // ["Vision", 25, "Uganda"]
+//  //["Vision", 25, "Uganda"]
 // ["Apples", "Mangoes", "Oranges", "Pineapples"]
 
 // let fruits = ["Apples", "Mangoes", "Oranges", "Pineapples"]
@@ -261,10 +261,74 @@ while (password !== "1234") {
  // 3. Do-while loop
  do {
     //code to be executed
-//  } while (condition);
+//   while (condition);
+ }
 
- let i = 0;
- do {
-    console.log (" From the do-loop",i);
-    i++
- } while (i < 7);
+//  let id2 = 0;
+//  do {
+//     console.log (" From the do-loop",i);
+//     i++
+//    while (id2 < 7);
+// }
+
+
+
+ //Arrow Functions
+// Arrow Functions are a more concise way to write functions in JavaScript.
+// They are often used for short
+
+// Traditional function expression
+ const traditionalFunction = function(){
+console.log("This is a traditional function");
+}
+traditionalFunction();
+
+function anotherTraditionalFunction(){
+    console.log("This is another traditional function");
+
+}
+ anotherTraditionalFunction();
+
+ // Arrow function expression
+ const arrowFunc =() => {
+    console.log("This is an arrow function");
+
+ }
+ arrpowFunc();
+
+ const add = (a,b) => {
+    console.log(a + b);
+ }
+ add(3,4)
+
+ // JSON (JavaScript, Object Notation)
+ // JavaScript Object
+const task = {
+    id: 1,
+    title: "Complete JavaScript",
+    Completed: false
+}
+console.log(task);
+
+// JSON string
+const taskJSON = JSON.stringify(task);
+
+
+
+ console.log(taskJSON);
+
+ // Parsing JSON string back to JavaScript object
+ const parsedTask = JSON.parse(taskJSON);
+ console.log(parsedTask);
+
+ // Local Storage
+ // Storing data in local  storage
+ localStorage.setItem ("Name","Nadunga Suzan Sandra");
+ localStorage.setItem("task", taskJSON);
+
+ // Retrieving data from local storage
+ const nameFromStorage =localStorage.getItem("Name");
+ console.log("Name from local storage:", nameFromStorage);
+
+ const taskFromStorage = localStorage.getItem("task")
+ console.log(taskFromStorage);
