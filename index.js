@@ -278,7 +278,7 @@ while (password !== "1234") {
 // They are often used for short
 
 // Traditional function expression
- const traditionalFunction = function(){
+const traditionalFunction = function(){
 console.log("This is a traditional function");
 }
 traditionalFunction();

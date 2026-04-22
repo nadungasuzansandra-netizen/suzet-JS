@@ -1,18 +1,24 @@
-/* *{
+ *{
     color: blue;
-    background-color:rgb(130, 175, 130);
+
 }
 .he{
     color: brown;
 }
 img{
-    border-image: 5px round; */
+    border-image: 5px solid red;
+    position: relative;
+    display: flex;
+    border-radius: 1000px;
+    max-height: 200px;
+    margin-left: 150px;
+    margin-top: 200px;
 
+}
 
-/* } */
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 .main{
     width: 100;
@@ -43,22 +49,24 @@ img{
     margin-left: -2%;
 }
 ul{
-    margin-top: -4%;
+    margin-top: -2%;
 }
 ul li {
     list-style: none;
     display: inline-block;
-    padding: 10px 16px;
+    margin-left: 120px;
+    padding: 2px 0; 
+    
 }
 ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: darkblue;
-    margin-top: -3%
+    margin-top: -2%
 }
 ul li a:hover{
-    color: orange;
+    color: rgb(10, 224, 64);
 }
 
 .info{
@@ -91,7 +99,7 @@ ul li a:hover{
 .info a:hover{
     background-color: green;
 }
-. image{
+.image{
     width: 30%;
     height: 60%;
     position: absolute;
@@ -109,3 +117,42 @@ ul li a:hover{
 .image:hover .girl{
     left: 55%;
 }
+ /* *{
+    background-color: rgb(216, 15, 109);
+    color: black;
+    padding: 1px 0;
+    margin: 2px;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: medium;
+    font-family: Cambria;
+ }
+
+ .navibar{
+
+
+ }
+ .card-text{
+    color: rgb(7, 189, 7);
+    
+
+ }
+ .card-img-top{
+    border-radius: 10px;
+
+ }
+ .img-fluid-rounded{
+    border-radius: 20px;
+    width: 100px;
+
+ }
+ .container{
+    border-radius: 50px;
+    justify-content: center;
+    margin: 1px;
+    justify-content: center;
+
+    
+    
+ }
+  */ 
