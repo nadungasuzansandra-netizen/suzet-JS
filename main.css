@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(216, 15, 132);
+    color: black;
+    padding: 1px 0;
+    margin: 2px;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: medium;
+    font-family: Cambria;
+    
+ }
+
+ 
+ .card-text{
+    color: rgb(7, 189, 7);
+    
+
+ }
+ .card-img-top{
+    border-radius: 100px;
+
+ }
+ .rounded-suzie{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 4px solid rgb(80, 17, 199);
+
+ }
+ .container{
+    border-radius: 50px;
+    justify-content: center;
+    margin: 1px;
+    justify-content: center;
+ }
+ 
+   
+
+
+  
