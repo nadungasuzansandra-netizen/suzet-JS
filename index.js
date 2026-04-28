@@ -216,119 +216,117 @@
 //     console.log(i)
 // }
 
- for (let i=7;  i > 0; i--) {
-     console.log(i)
-}
-const myCars = ["Volvo", "Benz","Toyota", "Kia", ]
-console.log(myCars);
-const numberOfCars = myCars.length;// This gives you the number of items in the array
-console.log(numberOfCars);
-const KiaPosition = myCars.indexOf("Kia");
-console.log("The position of Kia in the array is", KiaPosition);
+//  for (let i=7;  i > 0; i--) {
+//      console.log(i)
+// }
+// const myCars = ["Volvo", "Benz","Toyota", "Kia", ]
+// console.log(myCars);
+// const numberOfCars = myCars.length;// This gives you the number of items in the array
+// console.log(numberOfCars);
+// const KiaPosition = myCars.indexOf("Kia");
+// console.log("The position of Kia in the array is", KiaPosition);
 
-for (let i = 0; i < myCars.length; i++) {
-    console.log(myCars[i]);
-}
-for ( let car of myCars ) {
-    function printCarPosition(car) {
-const index =myCars.indexOf(car)
-console.log("The position of" + car + "in the array is " + index);
-    }
-    printCarPosition(car);
-    console.log(car);
-}
-
-// 2. While loop
-// While (condition) {
-//     // code to be executed as long as the condition is true
+// for (let i = 0; i < myCars.length; i++) {
+//     console.log(myCars[i]);
+// }
+// for ( let car of myCars ) {
+//     function printCarPosition(car) {
+// const index =myCars.indexOf(car)
+// console.log("The position of" + car + "in the array is " + index);
+//     }
+//     printCarPosition(car);
+//     console.log(car);
 // }
 
-let id = 0;
-while ( id < 7) {
-    console.log("from the while loop", id);
-    id++;
-}
-//Decreament while loop
-let id2 = 7;
-while (id2 > 0) {
-    console.log("from the while loop", id2);
-id2--;}
+// // 2. While loop
+// // While (condition) {
+// //     // code to be executed as long as the condition is true
+// // }
 
-let password = "";
-while (password !== "1234") {
-    password = prompt(" Please enter the correct pasword:");
-}
- // 3. Do-while loop
- do {
-    //code to be executed
-//   while (condition);
- }
+// let id = 0;
+// while ( id < 7) {
+//     console.log("from the while loop", id);
+//     id++;
+// }
+// //Decreament while loop
+// let id2 = 7;
+// while (id2 > 0) {
+//     console.log("from the while loop", id2);
+// id2--;}
 
-//  let id2 = 0;
+// let password = "";
+// while (password !== "1234") {
+//     password = prompt(" Please enter the correct pasword:");
+// }
+//  // 3. Do-while loop
 //  do {
-//     console.log (" From the do-loop",i);
-//     i++
-//    while (id2 < 7);
-// }
+//     //code to be executed
+// //   while (condition);
+//  }
+
+// //  let id2 = 0;
+// //  do {
+// //     console.log (" From the do-loop",i);
+// //     i++
+// //    while (id2 < 7);
+// // }
+
+//  //Arrow Functions
+// // Arrow Functions are a more concise way to write functions in JavaScript.
+// // They are often used for short
+
+// // // Traditional function expression
+// // const traditionalFunction = function(){
+// // console.log("This is a traditional function");
+// // }
+// // traditionalFunction();
+
+// // function anotherTraditionalFunction(){
+// //     console.log("This is another traditional function");
+
+// // }
+// //  anotherTraditionalFunction();
+
+// //  // Arrow function expression
+// //  const arrowFunc =() => {
+// //     console.log("This is an arrow function");
+
+// //
+// //  arrpowFunc();
+
+// //  const add = (a,b) => {
+// //     console.log(a + b);
+// //  }
+// //  add(3,4)
+
+// //  // JSON (JavaScript, Object Notation)
+// //  // JavaScript Object
+// // const task = {
+// //     id: 1,
+// //     title: "Complete JavaScript",
+// //     Completed: false
+// // }
+// // console.log(task);
+
+// // // JSON string
+// // const taskJSON = JSON.stringify(task);
 
 
 
- //Arrow Functions
-// Arrow Functions are a more concise way to write functions in JavaScript.
-// They are often used for short
+// //  console.log(taskJSON);
 
-// Traditional function expression
-const traditionalFunction = function(){
-console.log("This is a traditional function");
-}
-traditionalFunction();
+// //  // Parsing JSON string back to JavaScript object
+// //  const parsedTask = JSON.parse(taskJSON);
+// //  console.log(parsedTask);
 
-function anotherTraditionalFunction(){
-    console.log("This is another traditional function");
+// //  // Local Storage
+// //  // Storing data in local  storage
+// //  localStorage.setItem ("Name","Nadunga Suzan Sandra");
+// //  localStorage.setItem("task", taskJSON);
 
-}
- anotherTraditionalFunction();
+// //  // Retrieving data from local storage
+// //  const nameFromStorage =localStorage.getItem("Name");
+// //  console.log("Name from local storage:", nameFromStorage);
 
- // Arrow function expression
- const arrowFunc =() => {
-    console.log("This is an arrow function");
-
- }
- arrpowFunc();
-
- const add = (a,b) => {
-    console.log(a + b);
- }
- add(3,4)
-
- // JSON (JavaScript, Object Notation)
- // JavaScript Object
-const task = {
-    id: 1,
-    title: "Complete JavaScript",
-    Completed: false
-}
-console.log(task);
-
-// JSON string
-const taskJSON = JSON.stringify(task);
-
-
-
- console.log(taskJSON);
-
- // Parsing JSON string back to JavaScript object
- const parsedTask = JSON.parse(taskJSON);
- console.log(parsedTask);
-
- // Local Storage
- // Storing data in local  storage
- localStorage.setItem ("Name","Nadunga Suzan Sandra");
- localStorage.setItem("task", taskJSON);
-
- // Retrieving data from local storage
- const nameFromStorage =localStorage.getItem("Name");
- console.log("Name from local storage:", nameFromStorage);
-
- const taskFromStorage = localStorage.getItem("task")
- console.log(taskFromStorage);
+// //  const taskFromStorage = localStorage.getItem("task");
+// //  console.log(taskFromStorage);
